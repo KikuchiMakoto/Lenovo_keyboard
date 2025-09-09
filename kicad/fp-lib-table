@@ -1,4 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "Lenovo_Keyboard")(type "KiCad")(uri "C:/Users/kmakoto/Desktop/Lenovo_keyboard_project")(options "")(descr ""))
+  (lib (name "kicad")(type "KiCad")(uri "C:/Users/kmakoto/Desktop/Lenovo_keyboard_project/kicad")(options "")(descr ""))
 )
