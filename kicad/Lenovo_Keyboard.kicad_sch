@@ -8162,7 +8162,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOP-16_4.4x10.4mm_P1.27mm"
 			(at 233.68 101.6 0)
 			(effects
 				(font
@@ -8273,7 +8273,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOP-16_4.4x10.4mm_P1.27mm"
 			(at 187.96 101.6 0)
 			(effects
 				(font
