@@ -3,3 +3,17 @@
 
 33:PE1
 34:PE0
+
+rm -rf ./keyboards/converter/thinkbook_14g5p_arp && \
+cp -ra /mnt/c/Users/kmakoto/Desktop/qmk_firmware/keyboards/converter/thinkbook_14g5p_arp/ \
+./keyboards/converter/ && make converter/thinkbook_14g5p_arp/rpi_pico:default && \
+cp converter_thinkbook_14g5p_arp_rpi_pico_default.uf2 /mnt/c/Users/kmakoto/Desktop/
+
+[{a:6,h:0.5},"Esc",{h:0.5},"F1",{h:0.5},"F2",{h:0.5},"F3",{h:0.5},"F4",{h:0.5},"F5",{h:0.5},"F6",{h:0.5},"F7",{h:0.5},"F8",{h:0.5},"F9",{h:0.5},"F10",{h:0.5},"F11",{h:0.5},"F12",{a:5,h:0.5},"PrtSc\nNmLk",{h:0.5},"Pause\nScrLk",{h:0.5},"Delete\nInsert"],
+[{y:-0.5,a:4},"~\n`","!\n1","@\n2","#\n3","$\n4","%\n5","^\n6","&\n7","*\n8","(\n9",")\n0","_\n-","+\n=",{a:6,w:1.5},"Backspace"],
+[{a:4,w:1.5},"Tab","Q","W","E","R","T","Y","U","I","O","P","{\n[","}\n]","|\n\\"],
+[{w:1.75},"Caps Lock","A","S","D","F","G","H","J","K","L",":\n;","\"\n'",{a:6,w:1.75},"Enter"],
+[{w:2.5},"Shift",{a:4},"Z","X","C","V","B","N","M","<\n,",">\n.","?\n/",{a:6,w:2},"Shift"],
+[{w:1.5},"Ctrl","Fn","Win","Alt",{a:7,w:5},"",{a:6},"Alt","Ctrl",{a:7},"←",{h:0.5},"↑","→"],
+[{y:-0.5,x:12.5,h:0.5},"↓"]
+
