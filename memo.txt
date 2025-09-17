@@ -4,7 +4,7 @@
 33:PE1
 34:PE0
 
-rm -rf ./keyboards/converter/thinkbook_14g5p_arp && \
+cd ~/temp/qmk_firmware && rm -rf ./keyboards/converter/thinkbook_14g5p_arp && \
 cp -ra /mnt/c/Users/kmakoto/Desktop/qmk_firmware/keyboards/converter/thinkbook_14g5p_arp/ \
 ./keyboards/converter/ && make converter/thinkbook_14g5p_arp/rpi_pico:default && \
 cp converter_thinkbook_14g5p_arp_rpi_pico_default.uf2 /mnt/c/Users/kmakoto/Desktop/
@@ -16,4 +16,3 @@ cp converter_thinkbook_14g5p_arp_rpi_pico_default.uf2 /mnt/c/Users/kmakoto/Deskt
 [{w:2.5},"Shift",{a:4},"Z","X","C","V","B","N","M","<\n,",">\n.","?\n/",{a:6,w:2},"Shift"],
 [{w:1.5},"Ctrl","Fn","Win","Alt",{a:7,w:5},"",{a:6},"Alt","Ctrl",{a:7},"←",{h:0.5},"↑","→"],
 [{y:-0.5,x:12.5,h:0.5},"↓"]
-
