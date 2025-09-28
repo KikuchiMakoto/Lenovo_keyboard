@@ -4,10 +4,23 @@
 33:PE1
 34:PE0
 
-cd ~/temp/qmk_firmware && rm -rf ./keyboards/converter/thinkbook_14g5p_arp && \
-cp -ra /mnt/c/Users/kmakoto/Desktop/qmk_firmware/keyboards/converter/thinkbook_14g5p_arp/ \
-./keyboards/converter/ && make converter/thinkbook_14g5p_arp/rpi_pico:default && \
-cp converter_thinkbook_14g5p_arp_rpi_pico_default.uf2 /mnt/c/Users/kmakoto/Desktop/
+LED Escape
+03:GND
+04:2.5V to 5.0V
+
+LED CapsLk
+33:GND
+34:2.5V to 5.0V
+
+I think 2.7 to 3.3VV is best
+current is quite low under 2mA
+
+cd ~/temp/qmk_firmware && rm -rf ./keyboards/converter/thinkbook14_g5plus_arp && \
+cp -ra /mnt/c/Users/kmakoto/Desktop/qmk_firmware/keyboards/converter/thinkbook14_g5plus_arp/ \
+./keyboards/converter/ && make converter/thinkbook14_g5plus_arp/rpi_pico:default && \
+cp converter_thinkbook14_g5plus_arp_rpi_pico_default.uf2 /mnt/c/Users/kmakoto/Desktop/
+
+
 
 [{a:6,h:0.5},"Esc",{h:0.5},"F1",{h:0.5},"F2",{h:0.5},"F3",{h:0.5},"F4",{h:0.5},"F5",{h:0.5},"F6",{h:0.5},"F7",{h:0.5},"F8",{h:0.5},"F9",{h:0.5},"F10",{h:0.5},"F11",{h:0.5},"F12",{a:5,h:0.5},"PrtSc\nNmLk",{h:0.5},"Pause\nScrLk",{h:0.5},"Delete\nInsert"],
 [{y:-0.5,a:4},"~\n`","!\n1","@\n2","#\n3","$\n4","%\n5","^\n6","&\n7","*\n8","(\n9",")\n0","_\n-","+\n=",{a:6,w:1.5},"Backspace"],

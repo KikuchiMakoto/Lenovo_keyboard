@@ -3446,12 +3446,8 @@
 		(uuid "54880402-4f25-4198-a22d-8478e37058b4")
 	)
 	(no_connect
-		(at 29.21 111.76)
-		(uuid "11d47784-e024-407e-9fc3-9a6969f0078e")
-	)
-	(no_connect
-		(at 29.21 38.1)
-		(uuid "614c33e3-5d72-4372-94ff-0c6d659a002e")
+		(at 190.5 35.56)
+		(uuid "3278c643-2e2b-467f-be39-91ad0cd03be4")
 	)
 	(no_connect
 		(at 243.84 114.3)
@@ -3460,6 +3456,10 @@
 	(no_connect
 		(at 29.21 33.02)
 		(uuid "79699eb7-87ae-4e86-a3f6-7100d11522e8")
+	)
+	(no_connect
+		(at 190.5 33.02)
+		(uuid "8207cd87-e457-47f5-b0a2-68d2c2eb9f07")
 	)
 	(no_connect
 		(at 29.21 43.18)
@@ -3474,16 +3474,8 @@
 		(uuid "cd1d39cc-a57b-4d9a-8b12-9e6d98433cea")
 	)
 	(no_connect
-		(at 29.21 35.56)
-		(uuid "da849dee-c639-4879-9d26-22bb512ba4b8")
-	)
-	(no_connect
 		(at 29.21 45.72)
 		(uuid "e4154fba-5635-4450-ab9c-2f0a44497b3f")
-	)
-	(no_connect
-		(at 29.21 114.3)
-		(uuid "f1cc24bd-3947-43c5-945c-6b7a290e307c")
 	)
 	(no_connect
 		(at 29.21 48.26)
@@ -3525,7 +3517,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 60.96) (xy 190.5 60.96)
+			(xy 189.23 60.96) (xy 190.5 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3632,16 +3624,6 @@
 			(type default)
 		)
 		(uuid "1c5d3a26-c9c7-4a20-b64d-63a222f05281")
-	)
-	(wire
-		(pts
-			(xy 243.84 55.88) (xy 247.65 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22ea84b6-d0ae-4805-b102-eec5e5fd8722")
 	)
 	(wire
 		(pts
@@ -3772,6 +3754,16 @@
 			(type default)
 		)
 		(uuid "418527ff-ee66-4ab0-8ad2-650350e4baca")
+	)
+	(wire
+		(pts
+			(xy 29.21 35.56) (xy 31.75 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "443f5f24-2db0-4b67-bdf7-f300ee15c5bd")
 	)
 	(wire
 		(pts
@@ -3955,16 +3947,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 58.42) (xy 247.65 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b94e1b8-a7de-4a45-b331-bc1e3ee8025d")
-	)
-	(wire
-		(pts
 			(xy 220.98 104.14) (xy 223.52 104.14)
 		)
 		(stroke
@@ -4045,6 +4027,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 114.3) (xy 35.56 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f7e4584-7cbd-41b1-bee5-ee56ae593180")
+	)
+	(wire
+		(pts
 			(xy 29.21 83.82) (xy 35.56 83.82)
 		)
 		(stroke
@@ -4092,6 +4084,16 @@
 			(type default)
 		)
 		(uuid "8b1d9745-2288-4b28-8510-cb055a5d885d")
+	)
+	(wire
+		(pts
+			(xy 35.56 38.1) (xy 29.21 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fb93240-0cb5-482f-9a42-efed1f00c889")
 	)
 	(wire
 		(pts
@@ -4255,16 +4257,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 60.96) (xy 247.65 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a957a082-88f5-48be-a188-638e7fee97fa")
-	)
-	(wire
-		(pts
 			(xy 43.18 50.8) (xy 29.21 50.8)
 		)
 		(stroke
@@ -4335,16 +4327,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 63.5) (xy 247.65 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf75f15c-1306-4786-bd21-7e0363c7b6b3")
-	)
-	(wire
-		(pts
 			(xy 245.11 106.68) (xy 243.84 106.68)
 		)
 		(stroke
@@ -4352,6 +4334,16 @@
 			(type default)
 		)
 		(uuid "c5c50cf1-9a23-4a3f-994c-7332d9b70d2c")
+	)
+	(wire
+		(pts
+			(xy 29.21 111.76) (xy 31.75 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c95e860a-7082-4e0e-9db8-f115cc824aa7")
 	)
 	(wire
 		(pts
@@ -4521,28 +4513,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GP_0"
-		(shape input)
-		(at 185.42 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0390b108-a16f-4e6b-91e1-3ae1e44a7845")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.7177 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -4745,9 +4715,9 @@
 			)
 		)
 	)
-	(global_label "GP_1"
+	(global_label "LED_CAPSLK"
 		(shape input)
-		(at 242.57 58.42 180)
+		(at 189.23 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4755,9 +4725,9 @@
 			)
 			(justify right)
 		)
-		(uuid "25a8130b-93fc-4d8e-b016-93b64b83083d")
+		(uuid "245d62d3-1f10-4379-968c-3d202ce35178")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 234.8677 58.42 0)
+			(at 174.6939 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4921,28 +4891,6 @@
 			)
 		)
 	)
-	(global_label "GP_0"
-		(shape input)
-		(at 242.57 60.96 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "41f94e35-08a3-4def-8651-1550e56f45a0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 234.8677 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "BAT+"
 		(shape input)
 		(at 213.36 33.02 0)
@@ -5088,6 +5036,28 @@
 		(uuid "56ae9f53-348e-4ca8-9a22-d7bc7e633cbf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 253.417 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_ESC"
+		(shape input)
+		(at 35.56 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "58ce4828-77e6-45bc-9110-6f41bf4bc59f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.5884 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5647,28 +5617,6 @@
 			)
 		)
 	)
-	(global_label "GP_1"
-		(shape input)
-		(at 185.42 60.96 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ceee91f1-7266-4c90-b7ac-4a3d959600c8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.7177 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "col10"
 		(shape input)
 		(at 35.56 104.14 0)
@@ -5779,6 +5727,28 @@
 			)
 		)
 	)
+	(global_label "LED_ESC"
+		(shape input)
+		(at 185.42 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ea2e0714-8460-4185-a537-52dc17dac274")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.3916 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SCLK"
 		(shape input)
 		(at 185.42 43.18 180)
@@ -5880,6 +5850,28 @@
 		(uuid "fa0e9acf-4b2c-44e5-93df-4666538d8ea8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 207.697 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_CAPSLK"
+		(shape input)
+		(at 35.56 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fb59821d-1e55-4521-9783-717fe668830c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.0961 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6405,6 +6397,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 31.75 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "253108aa-3deb-4393-acc6-5d5a563a559b")
+		(property "Reference" "#PWR025"
+			(at 38.1 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 35.5599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 31.75 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56527223-1d04-4656-afbc-2cefc787a433")
+		)
+		(instances
+			(project "Lenovo_Keyboard"
+				(path "/1f1c1de0-657a-4157-aadf-335dcc07f013"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 101.6 22.86 0)
 		(unit 1)
@@ -6465,73 +6524,6 @@
 			(project "Lenovo_Keyboard"
 				(path "/1f1c1de0-657a-4157-aadf-335dcc07f013"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 243.84 55.88 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3e6b1f8c-4446-4516-a011-211291c6e213")
-		(property "Reference" "#PWR016"
-			(at 237.49 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 240.03 55.8799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 243.84 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.84 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 243.84 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4e692538-f043-4cd9-ac28-33ee925f4e2f")
-		)
-		(instances
-			(project "Lenovo_Keyboard"
-				(path "/1f1c1de0-657a-4157-aadf-335dcc07f013"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -7011,73 +7003,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 242.57 63.5 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "784ecf6e-d2e8-4a96-91bc-96ad1cf8d356")
-		(property "Reference" "#PWR019"
-			(at 246.38 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 238.76 63.4999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 242.57 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 242.57 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a4837356-11a8-4ad5-b9af-987ac5144387")
-		)
-		(instances
-			(project "Lenovo_Keyboard"
-				(path "/1f1c1de0-657a-4157-aadf-335dcc07f013"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 101.6 35.56 0)
 		(unit 1)
@@ -7169,7 +7094,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector:FFC-PFC_0.8mm_34Pin"
+		(property "Footprint" "0000_Library:FFC-PFC_0.8mm_34Pin"
 			(at 24.13 73.66 0)
 			(effects
 				(font
@@ -7790,82 +7715,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Socket")
-		(at 252.73 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bc2445f1-388c-47ef-b864-d6fba70dc87f")
-		(property "Reference" "J6"
-			(at 254 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x04_Socket"
-			(at 254 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal"
-			(at 252.73 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 252.73 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 252.73 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "5d7f0f0e-0736-48ce-97c2-7428329e71e7")
-		)
-		(pin "1"
-			(uuid "39052fd2-6281-4297-931e-d90e992b519b")
-		)
-		(pin "3"
-			(uuid "9c2de272-8df7-47b0-88d6-242cb9e61f71")
-		)
-		(pin "2"
-			(uuid "91cc7bb1-4ef0-44d0-bd8c-4641101574db")
-		)
-		(instances
-			(project "Lenovo_Keyboard"
-				(path "/1f1c1de0-657a-4157-aadf-335dcc07f013"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 233.68 123.19 0)
 		(unit 1)
@@ -8129,6 +7978,73 @@
 			(project "Lenovo_Keyboard"
 				(path "/1f1c1de0-657a-4157-aadf-335dcc07f013"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 31.75 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5f06212-0c45-44bd-9e84-8a9ad4413437")
+		(property "Reference" "#PWR024"
+			(at 38.1 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 31.75 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e80928ca-9fac-4e2f-a9c2-d8a0110daec7")
+		)
+		(instances
+			(project "Lenovo_Keyboard"
+				(path "/1f1c1de0-657a-4157-aadf-335dcc07f013"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)

@@ -10,7 +10,10 @@
 		(hide yes)
 		(uuid "0b10b300-5069-431b-aa29-98e8d179ad5d")
 		(effects
-			(font (size 1 1) (thickness 0.1))
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
 		)
 	)
 	(property "Value" "Conn_01x34_Pin"
@@ -20,7 +23,10 @@
 		(hide yes)
 		(uuid "4d406584-6b48-4a31-8864-73980f08f7eb")
 		(effects
-			(font (size 1 1) (thickness 0.15))
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
 		)
 	)
 	(property "Datasheet" "~"
@@ -30,7 +36,10 @@
 		(hide yes)
 		(uuid "66450edd-a0b9-45f8-ae6c-5668978856b8")
 		(effects
-			(font (size 1 1) (thickness 0.15))
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
 		)
 	)
 	(property "Description" "Generic connector, single row, 01x35, script generated"
@@ -40,14 +49,20 @@
 		(hide yes)
 		(uuid "340a950b-ec9a-4f44-92e2-8e10463379ac")
 		(effects
-			(font (size 1 1) (thickness 0.15))
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
 		)
 	)
 	(attr smd)
 	(fp_rect
 		(start -16.5 -1)
 		(end -16 0.25)
-		(stroke (width 0.1) (type default))
+		(stroke
+			(width 0.1)
+			(type default)
+		)
 		(fill no)
 		(layer "F.SilkS")
 		(uuid "9fedcffe-f769-47a0-b52b-14db2cfb5018")
@@ -55,7 +70,10 @@
 	(fp_rect
 		(start -16 -1.95)
 		(end 16 1.85)
-		(stroke (width 0.1) (type default))
+		(stroke
+			(width 0.1)
+			(type default)
+		)
 		(fill no)
 		(layer "F.SilkS")
 		(uuid "6d934e8f-dc6b-456a-a065-28f73068b547")
@@ -63,7 +81,10 @@
 	(fp_rect
 		(start -14.7 -1.95)
 		(end 14.7 -0.05)
-		(stroke (width 0.1) (type solid))
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
 		(fill no)
 		(layer "F.SilkS")
 		(uuid "bd3ac3a4-d99d-4c13-ba91-1406284b89a5")
@@ -71,7 +92,10 @@
 	(fp_rect
 		(start -14.4 1.85)
 		(end 14.4 2.15)
-		(stroke (width 0.1) (type default))
+		(stroke
+			(width 0.1)
+			(type default)
+		)
 		(fill no)
 		(layer "F.SilkS")
 		(uuid "3c57ddd7-4766-48f9-bae7-fe46ab5d5f6b")
@@ -79,7 +103,10 @@
 	(fp_rect
 		(start -13.8 -2.55)
 		(end 13.8 -1.95)
-		(stroke (width 0.1) (type solid))
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
 		(fill no)
 		(layer "F.SilkS")
 		(uuid "00643ffe-e711-480c-a6b3-ac211b8bf2de")
@@ -87,7 +114,10 @@
 	(fp_rect
 		(start 16 -1)
 		(end 16.5 0.25)
-		(stroke (width 0.1) (type default))
+		(stroke
+			(width 0.1)
+			(type default)
+		)
 		(fill no)
 		(layer "F.SilkS")
 		(uuid "1c74259b-15d6-406e-8059-610272272803")
@@ -95,7 +125,10 @@
 	(fp_rect
 		(start -17.399 -2.921)
 		(end 17.399 2.5)
-		(stroke (width 0.05) (type solid))
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
 		(fill no)
 		(layer "F.CrtYd")
 		(uuid "beff6a7d-5430-4e2f-8e9f-99f48f7949a1")
